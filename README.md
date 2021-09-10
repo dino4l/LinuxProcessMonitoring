@@ -1,2 +1,2 @@
 # LinuxProcessMonitoring
-Repository is dedicated to Linux child processes monitoring project
+A loadable module of the Linux OS kernel for monitoring the creation of child processes
