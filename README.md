@@ -5,23 +5,23 @@ A loadable module of the Linux OS kernel for monitoring the creation of child pr
 
 ## Instalation & usage:
 
+Build all files:
 ```
 > make
 ```
 
-```
-> sudo insmod linux_kernel_monitor.ko
-```
+Load linux_kernel_monitor to Linux kernel:
 
 ```
 > sudo insmod linux_kernel_monitor.ko
 ```
+
 
 Intercepting the sys_clone() call
 
 ![image](https://user-images.githubusercontent.com/81106878/132882926-0504a7ee-71d3-49f9-becb-7a8d607b82b3.png)
 
-Staring the server 
+Start the server:
 
 ```
 > telnet 'ip' 'port'
