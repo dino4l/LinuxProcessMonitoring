@@ -24,7 +24,7 @@ Intercepting the sys_clone() call
 Start the server:
 
 ```
-> telnet 'ip' 'port'
+> telnet 'host' 'port'
 ```
 
 ![image](https://user-images.githubusercontent.com/81106878/132883222-ee019ad2-20e8-4c6b-a1d9-685b42b23160.png)
